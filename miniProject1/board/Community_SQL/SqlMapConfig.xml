@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<typeAlias type="work.board.CommunityBean" alias="community"/>
+		
+	
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="conf/sql-community.xml" />
+	</mappers>
+</configuration>
